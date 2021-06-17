@@ -1,0 +1,26 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:red;
+    width: 150px;
+    height: 150px;
+}
+
+.box.over {
+    border: 3px dotted #666;
+  }
+
+#dragme{
+    background: blue;
+    height: 50px;
+    width: 50px;
+    cursor: move;
+}
